@@ -1,37 +1,74 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!--bootstrap css-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="0716.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-You can use the [editor on GitHub](https://github.com/TingYuWong/FTD/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+	<section id="header">
+		<div class="container-fluid text-center">
+			<div class="display-5">THE GREAT</div>
+			<div class="display-4" id="rgbTitle"></div>
+			<div class="display-5">GUESSING GAME</div>
+		</div>
+	</section>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<section id="controlBar">
+		<div class="container-fluid text-center">
+			<div class="row justify-content-center">
+				<div class="col-6">
+					<div class="row justify-content-around">
+						<div class="col-md-12 col-lg-4" id="reset">NEW COLORS</div>
+						<div class="col-md-12 col-lg-4" id="hintMes"></div>
+						<div class="col-md-12 col-lg-2" id="easy">EASY</div>
+						<div class="col-md-12 col-lg-2" id="hard">HARD</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-### Markdown
+	<section id="colorPalette">
+		<div class="container-fluid">
+			<!--row one-->
+			<div class="row justify-content-center">
+				<div class="col-6">
+					<div class="row justify-content-between">
+						<div class="col-sm-12 col-md-3 col-lg-3 colorBlock" id="0"></div>
+						<div class="col-sm-12 col-md-3 col-lg-3  colorBlock" id="1"></div>
+						<div class="col-sm-12 col-md-3 col-lg-3  colorBlock" id="2"></div>
+					</div>
+				</div>
+			</div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+			<!--row two-->
+			<div class="row justify-content-center rowTwo">
+				<div class="col-6">
+					<div class="row justify-content-between">
+						<div class="col-sm-12 col-md-3 col-lg-3  colorBlock" id="3"></div>
+						<div class="col-sm-12 col-md-3 col-lg-3  colorBlock" id="4"></div>
+						<div class="col-sm-12 col-md-3 col-lg-3  colorBlock" id="5"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+<!--bootstrap js-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
-**Bold** and _Italic_ and `Code` text
+<script type="text/javascript" src="0716.js"></script>
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TingYuWong/FTD/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
